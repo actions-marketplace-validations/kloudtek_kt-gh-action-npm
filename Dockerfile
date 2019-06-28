@@ -10,4 +10,5 @@ LABEL "homepage"="https://github.com/kloudtek/kt-gh-action-npm"
 LABEL "maintainer"="Kloudtek <info@kloudtek.com>"
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
