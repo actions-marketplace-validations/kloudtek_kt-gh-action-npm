@@ -2,7 +2,7 @@ FROM kloudtek/kt-build-docker-image:latest
 
 LABEL "com.github.actions.name"="KT NPM"
 LABEL "com.github.actions.description"="Run NPM"
-LABEL "com.github.actions.icon"="mic"
+LABEL "com.github.actions.icon"="code"
 LABEL "com.github.actions.color"="purple"
 
 LABEL "repository"="https://github.com/kloudtek/kt-gh-action-npm"
